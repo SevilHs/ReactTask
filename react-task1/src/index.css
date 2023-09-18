@@ -32,13 +32,10 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   border-collapse: collapse;
-  & th,
-  td {
-    border: 1px solid #ddd;
-    padding: 9px;
+  & th{
+    border: 1px solid #848484;
   }
-}
-.table-head {
-  background-color: #929292;
-  text-transform: capitalize;
+  & thead{
+    background-color: #929292;
+  }
 }
